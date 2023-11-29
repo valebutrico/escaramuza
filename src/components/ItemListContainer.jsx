@@ -17,11 +17,6 @@ const ItemListContainer = ( ) => {
 
   return (
     <section className="section">
-      <div className="container has-text-centered">
-        <h1 className="title">Bienvenido a Escaramuza - Tu librería online</h1>
-      </div>
-      
-
       <ItemList libros={libros}/>
     </section>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Item = ( {libro} ) => {
 
@@ -10,7 +11,7 @@ export const Item = ( {libro} ) => {
             <h3>{libro.titulo}</h3>
             <p>Categoría: {libro.categoria}</p>
             <p>Precio: ${libro.precio}</p>
-            <a href={`/item/${libro.id}`}>Ver más</a>
+            <Link to={`/item/${libro.id}`}>Ver más</Link>
         </div>
 
     </div>
