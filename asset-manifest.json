@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/escaramuza/static/css/main.b75902be.css",
+    "main.js": "/escaramuza/static/js/main.afe9a555.js",
+    "static/media/shopping-cart5929.jpg": "/escaramuza/static/media/shopping-cart5929.99885a9a75023b26a5ef.jpg",
+    "index.html": "/escaramuza/index.html",
+    "main.b75902be.css.map": "/escaramuza/static/css/main.b75902be.css.map",
+    "main.afe9a555.js.map": "/escaramuza/static/js/main.afe9a555.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b75902be.css",
+    "static/js/main.afe9a555.js"
+  ]
+}
