@@ -1,0 +1,43 @@
+*, *::before *::after {
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marca {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.menu-lista {
+  display: flex;
+  gap: 2rem;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 2rem;
+}

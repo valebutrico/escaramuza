@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { pedirDatos } from "./helpers/pedirDatos";
+import { pedirDatos } from "../data/pedirDatos";
 import { ItemList } from "./ItemList";
+import "./libros.css";
 
 const ItemListContainer = ( ) => {
 
@@ -17,7 +18,9 @@ const ItemListContainer = ( ) => {
 
   return (
     <section className="section">
-      <ItemList libros={libros}/>
+      <div className="item-container">
+        <ItemList libros={libros}/>
+      </div>
     </section>
   );
 };

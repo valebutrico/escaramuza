@@ -1,0 +1,8 @@
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: rgb(12, 42, 91);
+}
